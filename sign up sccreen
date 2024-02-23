@@ -1,0 +1,108 @@
+<!-- HTML Code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signup.css"/>
+    <title> sign up </title>
+</head>
+<body>
+    <center><form class="form">
+        <h2> sign up </h2>
+        <input class="txt" type="text" placeholder="First Name">
+        <input class="txt" type="text" placeholder="Last Name"><br>
+        <input class="email" type="email" placeholder="Email"><br>
+        <input class="password" type="password" placeholder="Password"><br>
+        <input class="confirm " type="password" placeholder="Confirm Password"><br>
+        <input class="cb" type="checkbox" id="checkprivacy" >
+        <label for="checkprivacy">I accept the Terms of Use & Privacy Policy</label><br>
+        <input class="signb" type="submit" value="Sign Up"> 
+        <p class="Already">Already have an account? <a href="https://myaccount.google.com/?pli=1">login here</a> </p>
+        <p class="copyright">copyright@company.com</p>
+
+    </form></center>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ /*CSS Code */
+
+ body{
+    background-image: url('b.png')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100vh ; */
+}
+
+.form{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(122, 105, 94) ;
+    border-radius: 20px;
+    margin: 50px auto;
+    background-color: rgb(133 117 107 /55%) ;
+}
+
+h2{
+    color:white;
+    font-weight: bold ;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 20px;
+
+}
+
+.txt{
+    width: 43%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 30px;
+   
+    
+}
+
+.email{
+
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
+.password{
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 10px;
+
+}
+
+.confirm{
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.cb{
+    margin-top: 15px;
+}
+
+.signb{
+    width: 50%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 15px;
+}
+
+.Already{
+    margin-top: 5px;
+}
+
+.copyright{
+    margin-top: 8%;
+}
