@@ -1,0 +1,75 @@
+<-- HTML Code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log in</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+
+<center><form class="form">
+   
+  <img class="img" src="c.png" height="200" width="200"/>
+    <h2>Member LogIn</h2>
+    <input class="email" type="email" placeholder="Email"><br>
+    <input class="pass" type="password" placeholder="Password"><br>
+    <input class="login" type="submit" value="LOGIN"> 
+    <p class="forgot">Forgot <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">Username</a>/
+        <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">Password</a>?</p>
+        <a  class="creat" href="https://support.google.com/accounts/answer/27441?hl=en"> creat your account </a>
+ 
+</form></center>
+    
+</body>
+</html>
+
+/* CSS Code */
+
+body{
+    background-image: url("rr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    height: 550px;
+    width: 750px;
+    margin: 50px;;
+    border-radius: 20px;
+    background-color: rgba(206, 126, 126, 0.8);
+}
+
+.img{
+    border-radius: 100px;
+ 
+}
+
+h2{
+
+}
+
+.email{
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
+.pass{
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
+.login{
+    width: 90%;
+    height: 10%;
+    border: 2px solid rgb(133 117 107 /55%);
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
